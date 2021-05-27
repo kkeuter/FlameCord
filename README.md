@@ -3,32 +3,40 @@ FlameCord
 
 FlameCord is a patch for Travertine to fix possible exploits and add useful functionalities.
 
-FlameCord is compiled like Travertine does; Please follow the CONTRIBUTING.md file. If you need help you can always contact us on Discord.
+FlameCord is compiled like Travertine does; Please follow the CONTRIBUTING.md file. If you need help you can always
+contact us on Discord.
 
-To compile FlameCord you need the same requirements as Travertine, and run the command `./flamecord b` to get the corresponding jar.
+To compile FlameCord you need the same requirements as Travertine, and run the command `./flamecord b` to get the
+corresponding jar.
 
 <a href="https://discord.gg/gF36AT3"><img src="https://discord.com/assets/4ff060e44afc171e9622fbe589c2c09e.png" width=10% height=10%><img/><a/> <a href="https://www.mc-market.org/resources/13492/"><img src="https://www.mc-market.org/styles/mcmarketv2/xenforo/logo.png" width=10% height=10%><img/><a/>
 
 Travertine [![Build Status](https://papermc.io/ci/job/Travertine/badge/icon)](https://papermc.io/ci/job/Travertine/)
 =======
 
-Travertine is Waterfall with additional protocols. Waterfall is a fork of the well-known [BungeeCord](https://github.com/SpigotMC/BungeeCord) server teleportation suite.
+Travertine is Waterfall with additional protocols. Waterfall is a fork of the
+well-known [BungeeCord](https://github.com/SpigotMC/BungeeCord) server teleportation suite.
 
 Waterfall focuses on three main areas:
 
-* **Stability**: Waterfall aims to be stable. We will achieve this through making the code base testable and discouraging practices that lead to proxy lag.
+* **Stability**: Waterfall aims to be stable. We will achieve this through making the code base testable and
+  discouraging practices that lead to proxy lag.
 * **Features**: Waterfall aims to include more features than canonical BungeeCord.
-* **Scalability**: Waterfall should be able to handle a large number of concurrent players, given a reasonably modern CPU, memory, and good network connection.
+* **Scalability**: Waterfall should be able to handle a large number of concurrent players, given a reasonably modern
+  CPU, memory, and good network connection.
 
 Travertine focuses on one main area:
 
-* **Additional Client Version Support**: Travertine aims to support client versions older then what is supported in upstream. This includes 1.7 support. Additionally Travertine may release Snapshot and PRE Client support patches as time permits.
+* **Additional Client Version Support**: Travertine aims to support client versions older then what is supported in
+  upstream. This includes 1.7 support. Additionally Travertine may release Snapshot and PRE Client support patches as
+  time permits.
 
 ## Why fork Waterfall?
 
 Travertine has a goal of adding additional protocol versions.
 
-Travertine was forked because of the fact that Waterfall intends to only support protocol versions supported by upstream BungeeCord. 
+Travertine was forked because of the fact that Waterfall intends to only support protocol versions supported by upstream
+BungeeCord.
 
 Travertine will track upstream Waterfall and merge changes as needed.
 
@@ -54,4 +62,7 @@ Special Thanks To
 -----------------
 ![YourKit-Logo](https://yourkit.com/images/yklogo.png)
 
-[YourKit](https://yourkit.com/), makers of the outstanding Java profiler, supports open source projects of all kinds with their full-featured [Java](https://yourkit.com/features/) and [.NET](https://yourkit.com/dotnet/features/) application profilers. We thank them for granting Travertine an OSS license so that we can make our software the best it can be.
+[YourKit](https://yourkit.com/), makers of the outstanding Java profiler, supports open source projects of all kinds
+with their full-featured [Java](https://yourkit.com/features/) and [.NET](https://yourkit.com/dotnet/features/)
+application profilers. We thank them for granting Travertine an OSS license so that we can make our software the best it
+can be.

@@ -48,7 +48,7 @@ index 4e2c6129..aeda7963 100644
      {
 -        sender.sendMessage( ChatColor.BLUE + "This server is running Travertine version " + ProxyServer.getInstance().getVersion() + " by md_5" );
 +        // FlameCord - Use custom version message
-+        sender.sendMessage( ChatColor.translateAlternateColorCodes( '&', "&eThis server is running &c" + ProxyServer.getInstance().getName() + "&e version &a" + ProxyServer.getInstance().getVersion() + "&e by &bLinsaFTW & Sammwy&e." ) );
++        sender.sendMessage( ChatColor.translateAlternateColorCodes( '&', "&eThis server is running HazeCord &e by &bxSwagnemitEx, LinsaFTW & Sammwy&e." ) );
      }
  }
 -- 
